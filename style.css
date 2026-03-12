@@ -97,19 +97,19 @@ body {
  @media (max-width: 535px) {
 .stage-item-title {
     font-size: 16px;
-    width: 180px;
+    width: 200px;
 }
  }
  @media (max-width: 510px) {
 .main-title, .stage-item-title, h2, .subtitle, p, h3 {
     font-size: 16px;
-    width: 180px;
+    width: 200px;
 }
  }
  @media (max-width: 414px) {
 .main-title, .item-arrow, .stage-item-title h2, .subtitle, .stage-item h3, p, h4 {
     font-size: 18px;
-    width: 180px;
+    width: 200px;
 }
 .stage-item-list { 
    width: 100%;
@@ -130,3 +130,4 @@ main {
 }
 
  }
+

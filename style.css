@@ -93,6 +93,7 @@ body {
     background: rgb(116, 116, 116);
     border-radius: 5px;
     padding: 10px;
+    width: 200px;
  }
  @media (max-width: 535px) {
 .stage-item-title {
@@ -130,5 +131,6 @@ main {
 }
 
  }
+
 
 

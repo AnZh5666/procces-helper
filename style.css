@@ -56,7 +56,7 @@ body {
     background: rgba(103, 53, 240, 0.795);
     border-radius: 7px;
     padding: 10px;
-    width: 40%;
+    width: 50%;
     margin-bottom: 10px; 
 }
 .stage-item h3 {
@@ -130,4 +130,5 @@ main {
 }
 
  }
+
 

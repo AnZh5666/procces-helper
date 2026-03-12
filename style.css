@@ -100,7 +100,7 @@ body {
     width: 180px;
 }
  }
- @media (max-width: 495px) {
+ @media (max-width: 510px) {
 .main-title, .stage-item-title, h2, .subtitle, p, h3 {
     font-size: 16px;
     width: 180px;
@@ -128,4 +128,5 @@ main {
 .header-title h1 {
     font-size: 25px;
 }
+
  }

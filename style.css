@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #222222;
+    color: #fff;
+    padding: 10px;
+}
+.header-title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main {
+    position: relative;
+}
+.main-list  {
+    width: 50%;
+    margin: 0 auto;   
+}
+.main-title {
+    cursor: pointer;
+    margin-bottom: 10px;
+    background: rgb(122, 122, 122);    
+    border-radius: 7px;
+    padding: 10px;    
+} 
+.stage-item {
+    display: none;  
+    margin-bottom: 10px; 
+    width: 100%;   
+}
+.item-arrow {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 174, 255, 0.452);
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 70%;
+}
+.stage-item h2 {
+    margin-left: 15px;
+}
+.subtitle {
+    font-size: 1.5rem;
+    margin-left: 22px;
+    margin-top: 10px;
+    text-align: left;
+    background: rgba(103, 53, 240, 0.795);
+    border-radius: 7px;
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 10px; 
+}
+.stage-item h3 {
+    background: rgba(3, 67, 184, 0.863);
+    border-radius: 7px;
+    padding: 10px;    
+    font-weight: 550;
+    margin-bottom: 7px;
+    width: 500px;   
+}
+ .stage-item-title {
+    cursor: pointer;     
+}
+.bg-green {
+    background: rgb(57, 128, 57);
+}
+.stage-item-title_block {     
+    padding: 7px;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.stage-item-list {
+    display:none;   
+    margin-top: 15px;
+    margin-bottom: 10px;   
+    margin-left: 30px;    
+}
+.stage-item-list p, h4 {
+    margin-bottom: 5px;
+    font-style:italic;
+    font-size: 16px;
+    color: #eeeded;
+    background: rgb(116, 116, 116);
+    border-radius: 5px;
+    padding: 10px;
+ }
+ @media (max-width: 535px) {
+.stage-item-title {
+    font-size: 16px;
+    width: 180px;
+}
+ }
+ @media (max-width: 495px) {
+.main-title, .stage-item-title, h2, .subtitle, p, h3 {
+    font-size: 16px;
+    width: 180px;
+}
+ }
+ @media (max-width: 414px) {
+.main-title, .item-arrow, .stage-item-title h2, .subtitle, .stage-item h3, p, h4 {
+    font-size: 18px;
+    width: 180px;
+}
+.stage-item-list { 
+   width: 100%;
+   margin-left: 0px;  
+}
+.stage-item-list h4 {
+    margin-bottom: 10px;;
+}
+main {
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.stage-item {
+    padding-right: 10px;
+}
+.header-title h1 {
+    font-size: 25px;
+}
+ }

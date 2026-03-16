@@ -3,11 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
-    background: #222222;
+   background: linear-gradient(to right, #000000, #152331);
     color: #fff;
     padding: 10px;
 }
+
 .header-title {
     display: flex;
     justify-content: center;
@@ -16,121 +18,161 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+
 .main {
     position: relative;
 }
-.main-list  {
+
+.main-list {
     width: 50%;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
+
 .main-title {
     cursor: pointer;
     margin-bottom: 10px;
-    background: rgb(122, 122, 122);    
+    background: linear-gradient(to right, #0f3443, #34e89e);
+    box-shadow: 4px 4px 8px 0px rgba(159, 172, 182, 0.2);
     border-radius: 7px;
-    padding: 10px;    
-} 
-.stage-item {
-    display: none;  
-    margin-bottom: 10px; 
-    width: 100%;   
+    padding: 10px;
+    text-align: center;
 }
+
+.stage-item {
+    display: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
 .item-arrow {
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 174, 255, 0.452);
+    background: linear-gradient(to right, #004e92, #000428);
+    box-shadow: 4px 4px 8px 0px rgba(151, 171, 185, 0.2);
     margin-left: 12px;
     margin-bottom: 10px;
     border-radius: 7px;
     padding: 10px;
     width: 70%;
+    text-align: center;
 }
-.stage-item h2 {
-    margin-left: 15px;
-}
+
 .subtitle {
     font-size: 1.5rem;
     margin-left: 22px;
     margin-top: 10px;
-    text-align: left;
-    background: rgba(103, 53, 240, 0.795);
+    text-align: center;
+    background: linear-gradient(to right, #243b55, #141e30);
+    box-shadow: 4px 4px 8px 0px rgba(107, 115, 121, 0.2);
     border-radius: 7px;
     padding: 10px;
-    width: 50%;
-    margin-bottom: 10px; 
+    width: 60%;
+    margin-bottom: 10px;
 }
+
 .stage-item h3 {
-    background: rgba(3, 67, 184, 0.863);
+    background: linear-gradient(to right, #26626b, #2c3e50);
+    box-shadow: 4px 4px 8px 0px rgba(100, 105, 109, 0.2);
     border-radius: 7px;
-    padding: 10px;    
+    padding: 10px;
     font-weight: 550;
     margin-bottom: 7px;
-    width: 500px;   
 }
- .stage-item-title {
-    cursor: pointer;     
+
+.stage-item-title {
+    cursor: pointer;
 }
+
 .bg-green {
-    background: rgb(57, 128, 57);
+    background: rgb(43, 44, 43);
 }
-.stage-item-title_block {     
+
+.stage-item-title_block {
     padding: 7px;
-    margin-left: 25px;
     border-radius: 5px;
     font-size: 18px;
+    text-align: center;
 }
+
 .stage-item-list {
-    display:none;   
+    display: none;
     margin-top: 15px;
-    margin-bottom: 10px;   
-    margin-left: 30px;    
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
-.stage-item-list p, h4 {
+
+.stage-item-list h4 {
+    margin-top: 10px;
+}
+
+.stage-item-list p,
+h4 {
     margin-bottom: 5px;
-    font-style:italic;
-    font-size: 16px;
+    font-style: italic;
+    font-size: 20px;
     color: #eeeded;
-    background: rgb(116, 116, 116);
+    background: rgb(83, 83, 83);
+    box-shadow: 4px 4px 8px 0px rgba(107, 115, 121, 0.2);
     border-radius: 5px;
     padding: 10px;
-    width: 200px;
- }
- @media (max-width: 535px) {
-.stage-item-title {
-    font-size: 16px;
-    width: 200px;
-}
- }
- @media (max-width: 510px) {
-.main-title, .stage-item-title, h2, .subtitle, p, h3 {
-    font-size: 16px;
-    width: 200px;
-}
- }
- @media (max-width: 414px) {
-.main-title, .item-arrow, .stage-item-title h2, .subtitle, .stage-item h3, p, h4 {
-    font-size: 18px;
-    width: 200px;
-}
-.stage-item-list { 
-   width: 100%;
-   margin-left: 0px;  
-}
-.stage-item-list h4 {
-    margin-bottom: 10px;;
-}
-main {
-    padding-right: 7px;
-    padding-left: 7px;
-}
-.stage-item {
-    padding-right: 10px;
-}
-.header-title h1 {
-    font-size: 25px;
+    text-align: left;
+    margin-left: 7px;
 }
 
- }
+.text {
+    color: rgb(255, 5, 5);
+}
 
+@media (max-width: 535px) {
+    .stage-item-title {
+        font-size: 16px;
+        width: 180px;
+    }
+}
 
+@media (max-width: 495px) {
+    .subtitle {
+        width: 100%;
+    }
 
+    .stage-item-list p {
+        width: 220px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .main-title,
+    .item-arrow,
+    .stage-item-title h2,
+    .subtitle,
+    .stage-item h3,
+    p,
+    h4 {
+        font-size: 18px;
+    }
+
+    .stage-item-list {
+        width: 100%;
+    }
+
+    .stage-item-list h4 {
+        margin-bottom: 10px;
+        ;
+    }
+
+    .stage-item-list p {
+        width: 225px;
+    }
+
+    main {
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    .stage-item {
+        padding-right: 10px;
+    }
+
+    .header-title h1 {
+        font-size: 25px;
+    }
+}

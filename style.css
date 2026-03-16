@@ -124,7 +124,7 @@ h4 {
 @media (max-width: 535px) {
     .stage-item-title {
         font-size: 16px;
-        width: 180px;
+        width: 220px;
     }
 }
 
@@ -132,6 +132,8 @@ h4 {
     .subtitle {
         width: 100%;
     }
+    .main-title {
+        width: 230px;
 
     .stage-item-list p {
         width: 220px;

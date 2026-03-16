@@ -140,7 +140,7 @@ h4 {
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 416px) {
 
     .main-title,
     .item-arrow,
@@ -155,10 +155,8 @@ h4 {
     .stage-item-list {
         width: 100%;
     }
-
     .stage-item-list h4 {
         margin-bottom: 10px;
-        ;
     }
 
     .stage-item-list p {
